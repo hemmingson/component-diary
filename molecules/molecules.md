@@ -1,4 +1,4 @@
 ## form
 
 - asteroid
-  - a range input override slider with output
+  - a range input base slider with output
