@@ -3,6 +3,11 @@
 - lotus
   - a lightweight and minimalist button with hover effect
 
+## card
+
+- jobs
+  - a apple like card inspired by steve jobs
+
 ## input
 
 - clean
