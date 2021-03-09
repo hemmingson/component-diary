@@ -7,6 +7,8 @@
 
 - jobs
   - a apple like card inspired by steve jobs
+- leadership
+  - a textured card
 
 ## input
 
