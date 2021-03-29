@@ -2,6 +2,8 @@
 
 - lotus
   - a lightweight and minimalist button with hover effect
+- octocat
+  - a simple github like button
 
 ## card
 
