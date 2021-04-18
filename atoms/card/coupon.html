@@ -2,14 +2,17 @@
 
 <style>
   div {
-    width: 140px;
-    height: 70px;
-    background-color: salmon;
+    width: 120px;
+    height: 60px;
 
-    mask: radial-gradient(circle at 0, #000 20px, red 0),
-      radial-gradient(circle at 0, #000 20px, red 0);
-    mask-size: 51%;
-    mask-position: 0, 100%;
-    mask-repeat: no-repeat;
+    background-color: #eee;
+
+    -webkit-mask: radial-gradient(circle at 50%, #fff 3px, transparent 0) 50%
+        50% / 100% 12px,
+      radial-gradient(circle at 10px 10px, transparent 10px, #fff 0) -10px -10px /
+        50%;
+    -webkit-mask-composite: destination-out;
   }
 </style>
+
+<!-- written on Apr 17, 2021 -->

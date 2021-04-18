@@ -11,6 +11,8 @@
   - a apple like card inspired by steve jobs
 - leadership
   - a textured card
+- coupon
+  - a coupon like card with pure css
 
 ## input
 
