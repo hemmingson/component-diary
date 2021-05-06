@@ -13,6 +13,8 @@
   - a textured card
 - coupon
   - a coupon like card with pure css
+- idabashi
+  - a clean card with hover effect
 
 ## input
 
