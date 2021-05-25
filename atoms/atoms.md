@@ -15,6 +15,8 @@
   - a coupon like card with pure css
 - idabashi
   - a clean card with hover effect
+- avatar
+  - a simple and clean default avatar card
 
 ## input
 
