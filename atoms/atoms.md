@@ -27,3 +27,5 @@
 
 - cattle
   - a peaceful text animation
+- pin
+  - a simple text pin with hover effect
