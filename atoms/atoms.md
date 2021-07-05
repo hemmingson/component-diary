@@ -17,6 +17,8 @@
   - a clean card with hover effect
 - avatar
   - a simple and clean default avatar card
+- glasses
+  - a glassmorphism card with blob shape
 
 ## input
 
