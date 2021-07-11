@@ -19,6 +19,8 @@
   - a simple and clean default avatar card
 - glasses
   - a glassmorphism card with blob shape
+- glow
+  - a blank card with glowing animation
 
 ## input
 
