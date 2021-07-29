@@ -1,0 +1,15 @@
+{
+  "name": "component-diary",
+  "repository": "git@github.com:hemmingson/component-diary.git",
+  "author": "hemmingson",
+  "scripts": {
+    "build": "npx sass -w --no-source-map scss/app.scss style.css",
+    "lint": "npx eslint --fix js/main.js "
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "sass": "^1.36.0"
+  }
+}

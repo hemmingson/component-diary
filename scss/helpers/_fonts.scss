@@ -1,0 +1,10 @@
+@mixin font-face($name, $path) {
+  @font-face {
+    font-family: $name;
+    src: url($path);
+  }
+}
+
+@include font-face(nunito-sans, 'fonts/nunito-sans.ttf');
+@include font-face(single-day, 'fonts/single-day.ttf');
+@include font-face(yomogi, 'fonts/yomogi.ttf');

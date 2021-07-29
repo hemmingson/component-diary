@@ -1,0 +1,13 @@
+@use '../../helpers' as *;
+
+@use 'Article' as *;
+@use 'Aside' as *;
+
+@mixin Main {
+  main {
+    @include flex-row;
+    @include flex-auto;
+    @include Article;
+    @include Aside;
+  }
+}

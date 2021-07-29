@@ -1,0 +1,18 @@
+@use 'Nav' as *;
+
+@mixin Aside {
+  aside {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include Nav;
+    .pic-rap {
+      display: none;
+      .pic {
+        width: 50vw;
+        filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.5));
+      }
+    }
+  }
+}

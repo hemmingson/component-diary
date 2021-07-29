@@ -1,0 +1,21 @@
+@use 'helpers' as *;
+
+@use 'components/Footer/' as *;
+@use 'components/Header/' as *;
+@use 'components/Main/' as *;
+
+body {
+  margin: 0;
+  background: #ddeff5;
+  font-size: 16px;
+
+  .rapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    @include Header;
+    @include Main;
+    @include Footer;
+  }
+}

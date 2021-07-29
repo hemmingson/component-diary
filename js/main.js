@@ -1,0 +1,1 @@
+$('.pic-rap').fadeIn('slow');

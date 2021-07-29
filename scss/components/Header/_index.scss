@@ -1,0 +1,16 @@
+@use '../../helpers' as *;
+
+@use 'Logo' as *;
+@use 'SearchBar' as *;
+
+@mixin Header {
+  header {
+    @include bar-layout;
+    @include flex-align-center {
+      justify-content: space-between;
+    }
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    @include Logo;
+    @include SearchBar;
+  }
+}

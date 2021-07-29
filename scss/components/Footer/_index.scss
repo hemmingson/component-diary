@@ -1,0 +1,14 @@
+@use '../../helpers' as *;
+
+@mixin Footer {
+  footer {
+    @include bar-layout;
+    @include flex-align-center;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    font-family: $jp;
+    font-weight: bold;
+    strong {
+      color: #f8485e;
+    }
+  }
+}

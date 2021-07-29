@@ -1,0 +1,10 @@
+@use '../../helpers' as *;
+
+@mixin Logo {
+  .logo {
+    font-family: $ko;
+    font-size: $logo-font-size;
+    color: $txt-color;
+    text-decoration: none;
+  }
+}
