@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: nunito-sans;
   src: url("fonts/nunito-sans.ttf");
@@ -12,8 +13,8 @@
 }
 body {
   margin: 0;
-  background: #ddeff5;
   font-size: 16px;
+  background: #ddeff5;
 }
 body .rapper {
   height: 100vh;
@@ -132,4 +133,23 @@ body .rapper footer {
 }
 body .rapper footer strong {
   color: #f8485e;
+}
+
+@media (max-width: 800px) {
+  body {
+    height: 100vh;
+    position: relative;
+  }
+  body::before {
+    content: "<🖥️ />";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #2b2b2b;
+  }
+  body .rapper {
+    display: none;
+  }
 }

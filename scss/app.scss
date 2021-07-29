@@ -6,16 +6,32 @@
 
 body {
   margin: 0;
-  background: #ddeff5;
   font-size: 16px;
-
+  background: $bg-color;
   .rapper {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-
+    @include flex-column;
     @include Header;
     @include Main;
     @include Footer;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    height: 100vh;
+    position: relative;
+    &::before {
+      content: '<🖥️ />';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2rem;
+      color: #2b2b2b;
+    }
+    .rapper {
+      display: none;
+    }
   }
 }
