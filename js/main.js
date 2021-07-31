@@ -1,1 +1,1 @@
-$('.pic-rap').fadeIn('slow');
+$('.pic-rap').fadeIn('slow').css({ display: 'flex' });
