@@ -1,6 +1,15 @@
 @use '../../../helpers' as *;
 
 @mixin Nav {
+  %highlight {
+    color: rgb(2, 151, 245);
+    transform: translateY(-1px);
+    border-color: rgba(30, 167, 253, 0.5);
+    &::before {
+      opacity: 1;
+    }
+  }
+
   nav {
     padding: 20px;
     display: flex;
@@ -27,14 +36,9 @@
         line-height: 24px;
       }
       &:hover {
+        @extend %highlight;
         cursor: pointer;
-        color: rgb(2, 151, 245);
-        transform: translateY(-1px);
-        border-color: rgba(30, 167, 253, 0.5);
         transition: transform 150ms ease-out 0s, color 150ms ease-out 0s;
-        &::before {
-          opacity: 1;
-        }
       }
       &::before {
         content: '';
@@ -47,6 +51,9 @@
         opacity: 0;
         transition: opacity 0.3s ease-in-out 0s;
         box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 10px 0px;
+      }
+      &.selected {
+        @extend %highlight;
       }
     }
   }

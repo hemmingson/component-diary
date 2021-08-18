@@ -44,12 +44,12 @@ body .rapper header .search-bar {
   padding: 6px 15px;
   font-family: yomogi;
   font-size: 1rem;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   border-radius: 20px;
   outline: none;
 }
 body .rapper header .search-bar:focus {
-  border: 1px solid #0297f5;
+  border: 2px solid #0297f5;
 }
 body .rapper main {
   display: flex;
@@ -103,7 +103,6 @@ body .rapper main a .card .title {
   max-width: 100%;
   margin: 0;
   padding-bottom: 1.2rem;
-  font-size: 1.2rem;
   letter-spacing: 0.5px;
   line-height: 1.8rem;
   font-weight: bold;
@@ -114,7 +113,7 @@ body .rapper main a .card .desc {
   padding-top: 0.3rem;
   display: flex;
   justify-content: space-between;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 body .rapper main a .card .desc span {
   font-family: palanquin;
@@ -126,6 +125,14 @@ body .rapper main aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+body .rapper main aside nav .tag.selected, body .rapper main aside nav .tag:hover {
+  color: #0297f5;
+  transform: translateY(-1px);
+  border-color: rgba(30, 167, 253, 0.5);
+}
+body .rapper main aside nav .tag.selected::before, body .rapper main aside nav .tag:hover::before {
+  opacity: 1;
 }
 body .rapper main aside nav {
   padding: 20px;
@@ -156,13 +163,7 @@ body .rapper main aside nav .tag span {
 }
 body .rapper main aside nav .tag:hover {
   cursor: pointer;
-  color: #0297f5;
-  transform: translateY(-1px);
-  border-color: rgba(30, 167, 253, 0.5);
   transition: transform 150ms ease-out 0s, color 150ms ease-out 0s;
-}
-body .rapper main aside nav .tag:hover::before {
-  opacity: 1;
 }
 body .rapper main aside nav .tag::before {
   content: "";

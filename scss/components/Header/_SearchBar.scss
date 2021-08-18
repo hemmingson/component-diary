@@ -7,11 +7,11 @@
     padding: 6px 15px;
     font-family: $jp;
     font-size: 1rem;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: $base-radius * 4;
     outline: none;
     &:focus {
-      border: 1px solid $primary-color;
+      border: 2px solid $primary-color;
     }
   }
 }
