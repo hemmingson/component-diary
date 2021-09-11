@@ -1,7 +1,5 @@
 # Component Diary
 
-Where are my posts? 🦧
-
 ```
 .
 ├── components
